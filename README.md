@@ -9,7 +9,7 @@
  Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Geschäftsvorfall eine Rolle? Welche Daten stehen zu diesen Informationsobjekten zur Verfügung?
 
  Link:
-
+ [SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
 
 **Aufgabe3**
 
