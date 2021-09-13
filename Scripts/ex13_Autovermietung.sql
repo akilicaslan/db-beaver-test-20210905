@@ -41,11 +41,11 @@ CREATE TABLE ex13.fahrzeug(
    `anschaffungskosten` INTEGER NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
-INSERT INTO fahrzeug (id,zweck,beginn,ende)
+INSERT INTO fahrzeug (id,kennzeichen,anschaffungsdatum,anschaffungskosten)
 VALUES
-(1, 11, 'Max','Müller'),
-(2, 12, 'Azmi','Kilicaslan'),
-(3, 13, 'Stefan','Kocak');
+(1, BS34567, 'Max','Müller'),
+(2, AG34567, 'Azmi','Kilicaslan'),
+(3, LU34567, 'Stefan','Kocak');
 
 
 
