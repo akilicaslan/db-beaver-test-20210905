@@ -5,7 +5,7 @@ DROP SCHEMA IF EXISTS ex15;
 CREATE SCHEMA `ex15` DEFAULT CHARACTER SET utf8 ;
 USE ex15;
 
-CREATE TABLE ex15.personen(
+CREATE TABLE ex15.person(
   `pnr` INTEGER NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `vorname` varchar(100) DEFAULT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE ex15.personen(
  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
 
-INSERT INTO personen (pnr,name,vorname,fnr,lohnstufe)
+INSERT INTO person(pnr,name,vorname,fnr,lohnstufe)
 VALUES
 (100001, 'Steffen', 'Felix', 3, 5),
 (232452, 'Müller', 'Hugo', 1, 1),
@@ -32,14 +32,14 @@ VALUES
 (625342, 'Gerber', 'Roland', 3, 4);
 
 
-CREATE TABLE ex15.funktionen(
+CREATE TABLE ex15.funktion(
   `fnr` INTEGER NOT NULL,
   `funktion` varchar(100) DEFAULT NULL,
 constraint funktionen_fg primary key (fnr)
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
-INSERT INTO funktionen (fnr,funktion)
+INSERT INTO funktion (fnr,funktion)
 VALUES
 (1, 'Vorarbeiter'),
 (2, 'Meister'),
@@ -48,15 +48,13 @@ VALUES
 (5, 'Informatiker');
 
 
-
-
 CREATE TABLE ex15.kurs(
   `knr` INTEGER NOT NULL,
   `kursbezeichnung` varchar(100) DEFAULT NULL,
   `kursort` varchar(100) DEFAULT NULL,
   `ktnr` INTEGER NOT NULL,
   constraint kurs_pk PRIMARY KEY (`knr`),
- constraint kurse_fk foreign KEY (`pnr`) references ex15.kursthemen(pnr),
+ constraint kurse_fk foreign KEY (`pnr`) references ex15.kursthemen(ktnr)
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
@@ -207,7 +205,7 @@ INSERT INTO  ex15.kurskontrolle(fnr,knr) VALUES
 (2,776),
 (5,245);
 
-create or replace view ex15.personen all_courses
+create or replace view ex15.person all_courses
 AS select
 k.knr,
 k.kursbezeichnung,

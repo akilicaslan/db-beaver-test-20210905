@@ -10,12 +10,12 @@ CREATE TABLE ex13.mitarbeiter(
   `id` INTEGER NOT NULL,
   `pnr` varchar(100) DEFAULT NULL,
   `vorname` varchar(100) DEFAULT NULL,
-   `nachname` INTEGER NOT NULL
+   `nachname` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
 INSERT INTO mitarbeiter (id,pnr,vorname,nachname)
 VALUES
-(1, 11, 'Max','Müller'),
+(1, 11, 'Max','Mueller'),
 (2, 12, 'Azmi','Kilicaslan'),
 (3, 13, 'Stefan','Kocak');
 
@@ -37,8 +37,15 @@ VALUES
 CREATE TABLE ex13.fahrzeug(
   `id` INTEGER NOT NULL,
   `kennzeichen` varchar(100) DEFAULT NULL,
-  `anschaffungsdatum` varchar(100) DEFAULT NULL,
-   `anschaffungskosten` INTEGER NOT NULL
+  `hersteller` varchar(100) DEFAULT NULL,
+   `model` INTEGER NOT NULL,
+   `kraftstoff` INTEGER NOT NULL,
+   `Verbrauch` INTEGER NOT NULL,
+   `Anschaffungsdatum` INTEGER NOT NULL,
+    `Anschaffungsksoten` INTEGER NOT NULL,
+   
+   
+   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
 INSERT INTO fahrzeug (id,kennzeichen,anschaffungsdatum,anschaffungskosten)
@@ -53,10 +60,13 @@ CREATE TABLE ex13.anschaffung(
   `kennzeichen` INTEGER NOT NULL,
   `hersteller` varchar(100) DEFAULT NULL,
   `modell` varchar(100) DEFAULT NULL,
-   `kraftstoff` INTEGER NOT NULL,
+  `kraftstoff` INTEGER NOT NULL,
   `Verbrauch` INTEGER NOT NULL,
-   `anschaffungsdatum` INTEGER NOT NULL,
-    `anschaffungskosten` INTEGER NOT NULL,
+  `anschaffungsdatum` INTEGER NOT NULL,
+  `anschaffungskosten` INTEGER NOT NULL,
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
+
+
+
 
