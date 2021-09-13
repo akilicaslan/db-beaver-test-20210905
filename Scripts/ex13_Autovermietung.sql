@@ -49,10 +49,6 @@ VALUES
 
 
 
-
-
-
-
 CREATE TABLE ex13.anschaffung(
   `kennzeichen` INTEGER NOT NULL,
   `hersteller` varchar(100) DEFAULT NULL,
