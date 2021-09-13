@@ -32,7 +32,6 @@ VALUES
 (625342, 'Gerber', 'Roland', 3, 4);
 
 
-
 CREATE TABLE ex15.funktionen(
   `fnr` INTEGER NOT NULL,
   `funktion` varchar(100) DEFAULT NULL,
@@ -47,7 +46,6 @@ VALUES
 (3, 'Chemiker'),
 (4, 'Bereichsleiter'),
 (5, 'Informatiker');
-
 
 
 
@@ -121,7 +119,6 @@ INSERT INTO  ex15.kursleiter(klnr,s,pnr,datum) VALUES
 
 
 
-
 CREATE TABLE ex15.externe_kursleiter(
   `klnr` INTEGER NOT NULL,
   `ename` varchar(100) DEFAULT NULL,
@@ -133,16 +130,12 @@ CREATE TABLE ex15.externe_kursleiter(
 
 
 
-
-
 CREATE TABLE ex15.interne_kursleiter(
   `klnr` INTEGER NOT NULL,
   `pnr` INTEGER DEFAULT NULL,
   `kurserfahrung` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`klnr`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
-
-
 
 
 
@@ -230,6 +223,4 @@ inner join ex15.personen p3 kursleiter k3 on
 k3.klnr = k2.klnr;
 
 select * from ex15.all_courses;
-
-
 
