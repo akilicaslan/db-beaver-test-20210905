@@ -7,6 +7,13 @@
  
  **Aufgabe2**
  Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Geschäftsvorfall eine Rolle? Welche Daten stehen zu diesen Informationsobjekten zur Verfügung?
+ 
+ Mietvertrag:
+ Mietbeginn, Mietdauer, Mieter, Datum
+ 
+ Kunde: Vorname, Nachname
+ 
+ Fahrrad: Kennung, Fahrradtyp
 
  Link:
  [SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
@@ -18,6 +25,8 @@ Im Entity-Relationship-Diagramm wird ein Entitätstyp in einem Rechteck dargeste
 eine Raute eingefügt, die die Art der Beziehung kurz beschreibt.
 
 Link:
+
+[ERD Aufgabe3]( \db-beaver-test-20210905\Bilder\ex12_Velovermietung.sql)
 
 
 **Aufgabe4**

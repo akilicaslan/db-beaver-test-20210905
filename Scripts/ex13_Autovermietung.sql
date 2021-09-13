@@ -68,5 +68,38 @@ CREATE TABLE ex13.anschaffung(
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 collate=utf8mb4_unicode_ci;
 
 
+create or replace view ex13.revervierungsview
+AS select
+k.knr,
+k.kursbezeichnung,
+k2.datum,
+k2,pnr,
+k3.name,
+k3.firma
+from
+ex15.personen p kurse k
+inner join ex15.personen p2 kursbesuche k2 on
+k.knr = k2.knr
+inner join ex15.personen p3 kursleiter k3 on
+k3.klnr = k2.klnr;
+
+select * from ex15.revervierungsview;
+
+create or replace view ex13.instandhaltungsview
+AS select
+k.knr,
+k.kursbezeichnung,
+k2.datum,
+k2,pnr,
+k3.name,
+k3.firma
+from
+ex15.personen p kurse k
+inner join ex15.personen p2 kursbesuche k2 on
+k.knr = k2.knr
+inner join ex15.personen p3 kursleiter k3 on
+k3.klnr = k2.klnr;
+
+select * from ex15.instandhaltungsview;
 
 
