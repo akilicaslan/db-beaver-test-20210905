@@ -37,7 +37,7 @@ Link:
 Ergänzen Sie Ihr Entity-Relationship-Diagramm mit der Entität Fahrradtyp
 
 Link:
-
+[SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
 
 
 **Aufgabe6**
@@ -51,19 +51,20 @@ Link:
 
 
 ## Autovermietung - Bericht
- **Aufgabe1**
- Die Firma Atlanta GmbH hat einen Fuhrpark von Firmenwägen, die von Mitarbeitern für berufliche Zwecke genutzt werden können. Das Unternehmen möchte die Verwaltung des Fuhrparks, die bislang ausschliesslich in Papierform erfolgt, auf eine IT-gestützte Lösung
- umstellen.
- 
- Link:
- 
- 
+
  **Aufgabe2**
+ 
  Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Geschäftsvorfall eine Rolle? Welche Daten stehen zu diesen Informationsobjekten zur V erfügung?
 
- Link:
 
-
+ Mitarbeiter: pnr, vorname, nachname
+ reservierung: zweck, beginn, ende
+ fahrzeug: kennzeichen,anschaffungsdatum, anschaffungskosten
+ fahrzeugmodell: bezeichnung, Hersteller, Kraftstoff, Verbrauch
+ instandhaltung: datum, standKm, kosten, beschreibung
+ verischerungsvertrag: verischerungsnummer, kasko, beitrag
+ verischerungsgesellschaft: firma, telefon, strasse, hnr, plz, ort
+ 
 **Aufgabe3**
 
 Entity-Relationship-Modell oder Domänenmodell: Eine Beschreibungssprache für konzeptionelle Datenmodelle ist das von Peter Chen entwickelte Entity-Relationship- Modell (ER-Modell, ERM)..
