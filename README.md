@@ -1,10 +1,6 @@
 ## Velovermietung - Bericht
- **Aufgabe1**
- Die Fahrrad Müller GmbH vermietet Fahrräder. In ihrem Angebot finden sich verschiedene Typen wie zum Beispiel Mountainbikes, Trekkingräder, Rennräder und E-Bikes. Jede Vermietung erfasst das Unternehmen in einer Software, die die Daten mit Hilfe einer relationalen Datenbank verwaltet.
- 
- Link:
- 
- 
+
+
  **Aufgabe2**
  Welche Informationsobjekte (Personen, Sachen, Vorgänge, ...) spielen in dem Geschäftsvorfall eine Rolle? Welche Daten stehen zu diesen Informationsobjekten zur Verfügung?
  
@@ -15,9 +11,6 @@
  
  Fahrrad: Kennung, Fahrradtyp
 
- Link:
- [SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
-
 **Aufgabe3**
 
 Erstellen Sie das Entity Relationship Diagramm
@@ -26,7 +19,7 @@ eine Raute eingefügt, die die Art der Beziehung kurz beschreibt.
 
 Link:
 
-[ERD Aufgabe3]( \db-beaver-test-20210905\Bilder\ex12_Velovermietung.sql)
+[SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
 
 
 **Aufgabe4**
@@ -36,6 +29,8 @@ Die im Geschäftsvorfall genannte Kennung scheint zwar ein Fahrrad eindeutig zu 
 Wir ergänzen unser Entity-Relationship-Diagramm entsprechend und kennzeichnen die Attribute, die als Primärschlüssel dienen, indem wir ihre Attributnamen unterstreichen.
 
 Link:
+
+[SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
 
 **Aufgabe5**
 
