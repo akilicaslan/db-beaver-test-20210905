@@ -19,7 +19,7 @@ eine Raute eingefügt, die die Art der Beziehung kurz beschreibt.
 
 Link:
 
-![ERD Fahrrad]( /Bilder/Entity Relationship Diagramm_Fahrrad.jpg)
+[Entity Relationship Diagramm_Fahrrad.jpg]( \db-beaver-test-20210905\Bilder\Entity Relationship Diagramm_Fahrrad.jpg)
 
 
 **Aufgabe4**
