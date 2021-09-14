@@ -19,7 +19,7 @@ eine Raute eingefügt, die die Art der Beziehung kurz beschreibt.
 
 Link:
 
-[SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
+![ERD Fahrrad]( /Bilder/Entity Relationship Diagramm_Fahrrad.jpg)
 
 
 **Aufgabe4**
