@@ -117,20 +117,19 @@ INSERT INTO versicherungsgesellschaft (id,firma,strasse,hausnr,plz,ort,telefon) 
  (2,'Zurich Verischerung','Paradeplatz','2','5000','Zürich','061438796');
 
 CREATE TABLE versicherungsvertrag (
-  `id` int(11) NOT NULL,
+  `id` integer(11) NOT NULL,
   `versnr` varchar(8) DEFAULT NULL,
   `beitrag` decimal(9,2) DEFAULT NULL,
   `kasko` varchar(30) DEFAULT NULL,
-  `gesellschaft_id` int(11) NOT NULL,
-  `fahrzeug_id` int(11) NOT NULL,
+  `gesellschaft_id` integer(11) NOT NULL,
+  `fahrzeug_id` integer(11) NOT NULL,
   PRIMARY KEY (id),
   KEY `fahrzeug_id` (`fahrzeug_id`),
   KEY `gesellschaft_id (`gesellschaft_id`),
   CONSTRAINT versicherungsvertrag_1 FOREIGN KEY (`fahrzeug_id`) REFERENCES fahrzeug (id),
   CONSTRAINT versicherungsvertrag_2 FOREIGN KEY (`gesellschaft_id`) REFERENCES versicherungsgesellschaft (id));
 
-
-INSERT INTO versicherungsvertrag (id,versnr,beitrag,kasko,gesellschaft_id,fahrzeug_id) VALUES 
+insert into versicherungsvertrag (id,versnr,beitrag,kasko,gesellschaft_id,fahrzeug_id) VALUES 
  (1,'22','150','Teilkasko',2,2),
  (2,'33','150','Vollkasko',1,3),
  (3,'44','400','Vollkasko',1,4),
