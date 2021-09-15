@@ -29,15 +29,15 @@ Wir ergänzen unser Entity-Relationship-Diagramm entsprechend und kennzeichnen d
 
 Link:
 
-[Entity Relationship Diagramm_Fahrrad.jpg]( \db-beaver-test-20210905\Bilder\Entity Relationship Diagramm_Fahrrad_ID.jpg)
+[Entity Relationship Diagramm_Fahrrad_ID]( https://github.com/akilicaslan/db-beaver-test-20210905/Bilder/)
 
 **Aufgabe5**
 
 Ergänzen Sie Ihr Entity-Relationship-Diagramm mit der Entität Fahrradtyp
 
 Link:
-[Entity Relationship Diagramm_Fahrrad.jpg]( \db-beaver-test-20210905\Bilder\Entity Relationship Diagramm_Fahrrad_ID_kardinalität.jpg)
 
+[Entity Relationship Diagramm_Fahrrad_kardinalität]( https://github.com/akilicaslan/db-beaver-test-20210905/Bilder/)
 
 **Aufgabe6**
 
@@ -78,7 +78,9 @@ Link:
 
 Erstellen Sie die Relationen
 Beispiel einer Relation
-• mitarbeiter(id, persnr, vorname, nachname)
+
+mitarbeiter(id, persnr, vorname, nachname)
+
 Erstellen Sie das relationale Datenmodell
 
 Link:
