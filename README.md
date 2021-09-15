@@ -30,14 +30,14 @@ Wir ergänzen unser Entity-Relationship-Diagramm entsprechend und kennzeichnen d
 
 Link:
 
-[SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
+[Entity Relationship Diagramm_Fahrrad.jpg]( \db-beaver-test-20210905\Bilder\Entity Relationship Diagramm_Fahrrad_ID.jpg)
 
 **Aufgabe5**
 
 Ergänzen Sie Ihr Entity-Relationship-Diagramm mit der Entität Fahrradtyp
 
 Link:
-[SQL Script Aufgabe 7]( \db-beaver-test-20210905\Scripts\ex12_Velovermietung.sql)
+[Entity Relationship Diagramm_Fahrrad.jpg]( \db-beaver-test-20210905\Bilder\Entity Relationship Diagramm_Fahrrad_ID_kardinalität.jpg)
 
 
 **Aufgabe6**
@@ -118,3 +118,11 @@ Erstellen Sie in dbeaver ein Entity Relationship Diagramm
 
 Link:
 
+## Docker - Bericht
+
+Link:
+[Docker]( git-edu/mydockerbuild/)
+
+## Github - Bericht
+
+Link:
