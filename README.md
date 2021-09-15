@@ -19,8 +19,7 @@ eine Raute eingefügt, die die Art der Beziehung kurz beschreibt.
 
 Link:
 
-[Entity Relationship Diagramm_Fahrrad.jpg]( \db-beaver-test-20210905\Bilder\Entity Relationship Diagramm_Fahrrad.jpg)
-
+[Entity Relationship Diagramm_Fahrrad]( https://github.com/akilicaslan/db-beaver-test-20210905/Bilder/)
 
 **Aufgabe4**
 
@@ -121,8 +120,9 @@ Link:
 ## Docker - Bericht
 
 Link:
-[Docker]( git-edu/mydockerbuild/)
+[Docker]( https://github.com/akilicaslan/git-edu/mydockerbuild/)
 
 ## Github - Bericht
 
 Link:
+[Github]( https://github.com/akilicaslan/git-edu/branches)
